@@ -1,0 +1,9 @@
+.sidebar {
+    min-width: 400px;
+    border-right: 2px solid #000;
+}
+
+.sidebar-subtitle {
+    font-size: 2rem;
+    margin: 0 0 16px 0;
+}
