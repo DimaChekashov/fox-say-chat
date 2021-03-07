@@ -5,8 +5,8 @@ import "./Sidebar.css";
 const Sidebar = ({ users }) => {
     return (
         <aside className="sidebar">
-            <h4 className="sidebar-subtitle">Пользователи:</h4>
-            <ul>
+            <h4 className="sidebar-subtitle">Пользователи онлайн:</h4>
+            <ul className="sidebar-active-users-list">
                 {users.map((user) => (
                     <li key={user.id}>{user.name}</li>
                 ))}

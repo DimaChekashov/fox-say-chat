@@ -7,6 +7,8 @@ const AddMessage = (props) => {
     return (
         <div className="add-message">
             <input
+                placeholder="Напишите сообщение..."
+                className="add-message-input"
                 onKeyPress={(e) => {
                     if (e.key === "Enter") {
                         props.dispatch(input.value, "Me");

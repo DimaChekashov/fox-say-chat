@@ -4,9 +4,9 @@ import "./Message.css";
 
 const Message = ({ message, author }) => {
     return (
-        <p>
+        <li>
             <i>{author}</i>: {message}
-        </p>
+        </li>
     );
 };
 Message.propTypes = {

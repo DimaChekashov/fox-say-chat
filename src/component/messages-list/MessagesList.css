@@ -1,5 +1,17 @@
 .messages-list {
     padding: 10px 15px;
-    height: calc(100% - 63px);
+    height: calc(100% - 72px);
     overflow-y: scroll;
+}
+
+.messages-list-tape {
+    list-style: none;
+    padding: 0;
+}
+
+.messages-list-tape li {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 10px;
 }

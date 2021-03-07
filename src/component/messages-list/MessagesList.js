@@ -7,7 +7,7 @@ import "./MessagesList.css";
 const MessagesList = ({ messages }) => {
     return (
         <div className="messages-list">
-            <ul>
+            <ul className="messages-list-tape">
                 {messages.map((message) => (
                     <Message key={message.id} {...message} />
                 ))}
